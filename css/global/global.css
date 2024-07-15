@@ -30,6 +30,6 @@ img {
   display: block;
 }
 
-img[src$=".jpeg"] {
+img[src$=".jpg"] {
   border-radius: 4px;
 }
