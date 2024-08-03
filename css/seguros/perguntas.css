@@ -46,8 +46,8 @@ padding-bottom: 120px;
   transition: 0.3s;
 }
 
-.perguntas button:hover:after,
-.perguntas button[aria-expanded="true"]:after {
+.perguntas button:hover::after,
+.perguntas button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
 
