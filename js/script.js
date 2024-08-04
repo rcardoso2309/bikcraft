@@ -12,7 +12,6 @@ function ativarLink(link) {
 links.forEach(ativarLink);
 
 //Ativar Itens do Orcamento
-
 const paramentros = new URLSearchParams(location.search);
 
 function ativarProduto(parametro) {
@@ -25,7 +24,6 @@ function ativarProduto(parametro) {
 paramentros.forEach(ativarProduto);
 
 // Perguntas Frequentes
-
 const perguntas = document.querySelectorAll(".perguntas button");
 
 function ativarPergunta(event) {
@@ -44,8 +42,7 @@ function eventosPerguntas(pergunta) {
 
 perguntas.forEach(eventosPerguntas);
 
-//Gaelria de Bicicletas
-
+//Galeria de Bicicletas
 const galeria = document.querySelectorAll(".bicicleta-imagens img");
 const galeriaContainer = document.querySelector(".bicicleta-imagens");
 
@@ -63,3 +60,8 @@ function eventosGaleria(img) {
 
 galeria.forEach(eventosGaleria);
 
+
+//Animacao
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
