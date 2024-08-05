@@ -51,14 +51,13 @@ padding-bottom: 120px;
   transform: rotate(180deg);
 }
 
-.perguntas dd {
+.js .perguntas dd {
   display: none;
 }
 
-.perguntas dd.ativa {
+.js .perguntas dd.ativa {
   display: block;
 }
-
 
 .perguntas dd {
   padding-left: 20px;
